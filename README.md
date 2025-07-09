@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Uncouple - AI-Powered Uncontested Divorce Tool
 
 Uncouple is an AI-powered web application designed to streamline the uncontested divorce process for New York State residents. The platform guides users through eligibility checks, process overview, information collection, form generation, and provides clear next steps.
