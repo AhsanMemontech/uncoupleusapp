@@ -2,70 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Custom animations for AI assistant */
+@keyframes slideup {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
-.custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
-  background: #e0f7fa; /* Light cyan for track */
-}
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #0891b2; /* Cyan-600 for thumb */
-  border-radius: 8px;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #06b6d4; /* Lighter cyan on hover */
-}
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: #0891b2 #e0f7fa;
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(6, 182, 212, 0.8), 0 0 40px rgba(6, 182, 212, 0.4);
+  }
 }
 
+.animate-slideup {
+  animation: slideup 0.3s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar for chatbot */
 .chatbot-messages::-webkit-scrollbar {
-  width: 10px;
-  background: rgb(31 41 55);
+  width: 6px;
 }
+
+.chatbot-messages::-webkit-scrollbar-track {
+  background: rgba(31, 41, 55, 0.3);
+  border-radius: 3px;
+}
+
 .chatbot-messages::-webkit-scrollbar-thumb {
-  background: #0891b2;
-  border-radius: 8px;
+  background: linear-gradient(180deg, #06b6d4, #3b82f6);
+  border-radius: 3px;
 }
+
 .chatbot-messages::-webkit-scrollbar-thumb:hover {
-  background: #06b6d4;
+  background: linear-gradient(180deg, #0891b2, #2563eb);
 }
-.chatbot-messages {
-  scrollbar-width: thin;
-  scrollbar-color: #0891b2 #141c28;
+
+/* Lawyer dropdown styling */
+.lawyer-dropdown {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(75, 85, 99, 0.5);
 }
-.chatbot-messages::-webkit-scrollbar-button {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  background: transparent !important;
+
+/* Enhanced button hover effects */
+.group:hover .group-hover\:shadow-cyan-500\/25 {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.25);
+}
+
+/* AI assistant button enhancements */
+.ai-assistant-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ai-assistant-button:hover {
+  transform: scale(1.05) translateY(-2px);
+}
+
+/* Pulse animation for online indicator */
+@keyframes pulse-green {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-green {
+  animation: pulse-green 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 } 

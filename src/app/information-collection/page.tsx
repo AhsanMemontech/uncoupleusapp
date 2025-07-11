@@ -135,7 +135,7 @@ export default function InformationCollectionPage() {
         .from('profiles')
         .select('*')
         .eq('id', userId)
-        .single()
+        .maybeSingle()
         .then(({ data, error }) => {
           if (data) {
             setFormData(prev => ({
