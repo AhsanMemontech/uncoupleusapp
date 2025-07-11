@@ -3,6 +3,15 @@ import { stripe, PRODUCT_CONFIG } from '@/lib/stripe'
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if Stripe secret key is available
+    if (!process.env.STRIPE_SECRET_KEY) {
+      console.error('STRIPE_SECRET_KEY is not configured')
+      return NextResponse.json(
+        { error: 'Payment service not configured' },
+        { status: 500 }
+      )
+    }
+
     const { formData } = await request.json()
     
     if (!formData) {
