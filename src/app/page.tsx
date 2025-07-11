@@ -98,7 +98,7 @@ export default function Home() {
               The Divorce System Fails You on Every Front
             </h2>
             <p className="text-lg text-gray-300 max-w-4xl mx-auto">
-              It's not just expensive — it's scattered, slow, and stacked against you. Even if you want a simple, peaceful outcome, the system fights you every step of the way.
+              It&apos;s not just expensive — it&apos;s scattered, slow, and stacked against you. Even if you want a simple, peaceful outcome, the system fights you every step of the way.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-white">The Information Problem</h3>
               </div>
-              <p className="text-gray-300 mb-4 italic">"Everything you need is out there — but good luck finding it."</p>
+              <p className="text-gray-300 mb-4 italic">&quot;Everything you need is out there — but good luck finding it.&quot;</p>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start">
                   <X className="h-4 w-4 text-red-400 mr-2 mt-0.5 flex-shrink-0" />
@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-white">The Lawyer Problem</h3>
               </div>
-              <p className="text-gray-300 mb-4 italic">"They make money by taking time — not by solving your problem quickly."</p>
+              <p className="text-gray-300 mb-4 italic">&quot;They make money by taking time — not by solving your problem quickly.&quot;</p>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start">
                   <X className="h-4 w-4 text-red-400 mr-2 mt-0.5 flex-shrink-0" />
@@ -148,7 +148,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <X className="h-4 w-4 text-red-400 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>You're constantly asked to resend info you've already given.</span>
+                  <span>You&apos;re constantly asked to resend info you&apos;ve already given.</span>
                 </li>
               </ul>
             </div>
@@ -161,7 +161,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-white">The Court System Problem</h3>
               </div>
-              <p className="text-gray-300 mb-4 italic">"The courts are built to slow you down — not help you move forward."</p>
+              <p className="text-gray-300 mb-4 italic">&quot;The courts are built to slow you down — not help you move forward.&quot;</p>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start">
                   <X className="h-4 w-4 text-red-400 mr-2 mt-0.5 flex-shrink-0" />
@@ -173,7 +173,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <X className="h-4 w-4 text-red-400 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>No one explains how it works — you're expected to just figure it out.</span>
+                  <span>No one explains how it works — you&apos;re expected to just figure it out.</span>
                 </li>
               </ul>
             </div>
@@ -188,7 +188,7 @@ export default function Home() {
               One Simple System. Built to Save You Time, Money, and Stress.
             </h2>
             <p className="text-lg text-gray-300 max-w-4xl mx-auto">
-              Whether you're filing alone, working with a lawyer, or still figuring it out — Uncouple gives you the tools, clarity, and support to move forward fast.
+              Whether you&apos;re filing alone, working with a lawyer, or still figuring it out — Uncouple gives you the tools, clarity, and support to move forward fast.
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-4 w-4 text-green-400 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>It's reused across all forms and shared automatically</span>
+                  <span>It&apos;s reused across all forms and shared automatically</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-4 w-4 text-green-400 mr-2 mt-0.5 flex-shrink-0" />
@@ -252,7 +252,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <h3 className="text-2xl font-bold text-white mb-4">Simple. Peaceful. Done.</h3>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Whether you're filing alone, working with a lawyer, or just getting started — 
+              Whether you&apos;re filing alone, working with a lawyer, or just getting started — 
               Uncouple gives you the tools and support to move forward with confidence.
             </p>
           </div>
@@ -327,7 +327,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-4 w-4 text-green-400 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>You stay supported 24/7, even when your lawyer's offline</span>
+                  <span>You stay supported 24/7, even when your lawyer&apos;s offline</span>
                 </li>
               </ul>
             </div>
@@ -437,8 +437,8 @@ export default function Home() {
             Ready to Make Progress — Without the Pressure?
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-            You don't need to pay a lawyer just to ask a question.
-            You don't need to stay stuck because the system is confusing.
+            You don&apos;t need to pay a lawyer just to ask a question.
+            You don&apos;t need to stay stuck because the system is confusing.
             You can start right now — for free.
           </p>
           <button 

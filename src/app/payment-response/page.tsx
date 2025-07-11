@@ -70,7 +70,7 @@ export default function PaymentResponsePage() {
               <div className="flex items-center space-x-3">
                 <FileText className="h-5 w-5 text-green-400" />
                 <div className="text-left">
-                  <p className="text-green-400 font-medium text-sm">What's Next?</p>
+                  <p className="text-green-400 font-medium text-sm">What&apos;s Next?</p>
                   <p className="text-gray-300 text-xs">
                     Get your completed forms and filing instructions
                   </p>
@@ -97,7 +97,7 @@ export default function PaymentResponsePage() {
             <div className="space-y-3">
               <h1 className="text-2xl font-bold text-white">Payment Failed</h1>
               <p className="text-gray-300 text-sm">
-                We couldn't process your payment. Please try again or contact support if the problem persists.
+                We couldn&apos;t process your payment. Please try again or contact support if the problem persists.
               </p>
             </div>
 

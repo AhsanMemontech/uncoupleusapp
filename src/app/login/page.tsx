@@ -64,7 +64,7 @@ export default function LoginPage() {
           <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
         </button>
         <div className="text-center mt-4">
-          <a href="/signup" className="text-cyan-400 hover:underline text-sm">Don't have an account? Sign up</a>
+          <a href="/signup" className="text-cyan-400 hover:underline text-sm">Don&apos;t have an account? Sign up</a>
         </div>
       </form>
     </div>

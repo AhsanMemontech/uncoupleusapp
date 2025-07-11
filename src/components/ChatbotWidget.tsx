@@ -508,7 +508,7 @@ export default function ChatbotWidget() {
                       <ul className="text-sm text-gray-600 mb-6 text-left space-y-1">
                         <li>• Your full name and contact details</li>
                         <li>• Your address</li>
-                        <li>• Spouse's full name and address</li>
+                        <li>• Spouse&apos;s full name and address</li>
                       </ul>
                       <button
                         className="bg-gradient-to-r from-cyan-600 to-cyan-700 hover:from-cyan-700 hover:to-cyan-800 text-white px-6 py-2 rounded-lg font-semibold transition-colors w-full mb-2"
